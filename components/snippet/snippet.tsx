@@ -10,7 +10,7 @@ export default function Snippet({ children }: SnippetProps) {
         <div className={styles.snippetContainer}>
             <pre>
                 <code>
-                    {code}
+                    {children}
                 </code>
             </pre>
         </div>

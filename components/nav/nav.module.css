@@ -68,7 +68,7 @@
         
     .link {
         background-color: white;
-        border: solid .15rem black;
+        border: solid .15rem rgb(248, 248, 248);
         margin-bottom: .5rem;
         border-radius: .8rem;
     }
