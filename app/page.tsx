@@ -9,9 +9,8 @@ export default function Home() {
         <p>This website is my personal portfolio, but not only that,
            this is a place where I can record my thoughts and satisfy
            my curiosity. Here, you'll find my organized thoughts About
-           software development concepts and practices. The front end 
-           is created using Next.js, React, and JavaScript, and the back
-           end uses Django and Python.</p>
+           software development concepts and practices.</p>
+        <p>Technologies: JavaScript, React, Next.js, Python, Django</p>
       </section>
     </main>
   );
