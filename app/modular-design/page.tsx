@@ -12,7 +12,7 @@ export default function Page() {
           a good modular component is that it can used quickly
           and easily when constructing a web page. It is important
           to have a clear purpose in mind and put thought into the
-          user's (the software developer's) experience</p>
+          user's (the software developer's) experience.</p>
       </section>
 
       <section>
@@ -23,17 +23,17 @@ export default function Page() {
           possible so that I can focus on constructing the webpage content.
           Here's what the code for this paragraph looks like.
         </p>
-        <Snippet code={`
-        <section>
-          <h1>Global Styling</h1>
-          <p>Usually, you think React components when you think "modular",
-            but styling basic HTML tags with ease of use in mind can save
-            a lot of time. I'm avoiding the use of class names as much as
-            possible so that I can focus on constructing the webpage content.
-            Here's what the code for this paragraph looks like.
-          </p>
-        </section>
-        `} />
+        <Snippet>{`
+          <section>
+            <h1>Global Styling</h1>
+            <p>Usually, you think React components when you think "modular",
+              but styling basic HTML tags with ease of use in mind can save
+              a lot of time. I'm avoiding the use of class names as much as
+              possible so that I can focus on constructing the webpage content.
+              Here's what the code for this paragraph looks like.
+            </p>
+          </section>
+        `}</Snippet>
         <p>Mua, nice and simple!</p>
       </section>
 
@@ -45,7 +45,7 @@ export default function Page() {
           and I'm leveraging its functionality to make it very easy to add
           new routes.
         </p>
-        <Snippet code={`
+        <Snippet>{`
             <div
                 className={styles.menuButton}>
             </div>
@@ -66,7 +66,7 @@ export default function Page() {
                     Modular Design
                 </Link>
             </div>
-        `}/>
+        `}</Snippet>
       </section>
 
       <section>
@@ -77,7 +77,7 @@ export default function Page() {
           and fully featured code snippets. Below is a look at how the component
           is used on a page.
         </p>
-      <Snippet code={`
+      <Snippet>{`
         <Snippet code={"
 
           if(simple) {
@@ -87,10 +87,9 @@ export default function Page() {
           }
         
         "}/>
-        `} />
+      `}</Snippet>
       </section>
-
-
+      
     </main>
   );
 }

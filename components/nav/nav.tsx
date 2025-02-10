@@ -27,14 +27,14 @@ export default function Nav() {
                 <Link
                     onClick={toggleIsExpanded}
                     className={styles.link}
-                    href={'/responsive-design'}>
-                    Responsive Design
+                    href={'/modular-design'}>
+                    Modular Design
                 </Link>
                 <Link
                     onClick={toggleIsExpanded}
                     className={styles.link}
-                    href={'/modular-design'}>
-                    Modular Design
+                    href={'/responsive-design'}>
+                    Responsive Design
                 </Link>
             </div>
         </>
