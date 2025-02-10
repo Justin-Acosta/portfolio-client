@@ -3,7 +3,9 @@ import Snippet from "@/components/snippet/snippet";
 export default function Page() {
   return (
     <main>
+
       <h1>Modular Design</h1>
+      
       <section>
         <h1>Initial Thoughts</h1>
         <p>So far, I've found that the primary design goal of
@@ -32,7 +34,7 @@ export default function Page() {
           </p>
         </section>
         `} />
-        <p>Ahh, nice and simple.</p>
+        <p>Mua, nice and simple!</p>
       </section>
 
       <section>
@@ -43,6 +45,28 @@ export default function Page() {
           and I'm leveraging its functionality to make it very easy to add
           new routes.
         </p>
+        <Snippet code={`
+            <div
+                className={styles.menuButton}>
+            </div>
+            <div className={styles.navContainer}>
+                <Link
+                    className={styles.link}
+                    href={'/'}>
+                    Home
+                </Link>
+                <Link
+                    className={styles.link}
+                    href={'/responsive-design'}>
+                    Responsive Design
+                </Link>
+                <Link
+                    className={styles.link}
+                    href={'/modular-design'}>
+                    Modular Design
+                </Link>
+            </div>
+        `}/>
       </section>
 
       <section>
