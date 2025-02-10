@@ -1,10 +1,10 @@
 import styles from './snippet.module.css'
 
 interface SnippetProps {
-    code: string;
+    children: string;
 }
 
-export default function Snippet({ code }: SnippetProps) {
+export default function Snippet({ children }: SnippetProps) {
 
     return (
         <div className={styles.snippetContainer}>

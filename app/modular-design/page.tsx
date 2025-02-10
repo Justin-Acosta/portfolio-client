@@ -43,6 +43,34 @@ export default function Page() {
           and I'm leveraging its functionality to make it very easy to add
           new routes.
         </p>
+        <Snippet>{`
+          <>
+              <div
+                  onClick={toggleIsExpanded}
+                  className={styles.menuButton}>
+              </div>
+              <div className={styles.navContainer}
+                  <Link
+                      onClick={toggleIsExpanded}
+                      className={styles.link}
+                      href={'/'}>
+                      Home
+                  </Link>
+                  <Link
+                      onClick={toggleIsExpanded}
+                      className={styles.link}
+                      href={'/responsive-design'}>
+                      Responsive Design
+                  </Link>
+                  <Link
+                      onClick={toggleIsExpanded}
+                      className={styles.link}
+                      href={'/modular-design'}>
+                      Modular Design
+                  </Link>
+              </div>
+          </>
+        `}</Snippet>
       </section>
 
       <section>
