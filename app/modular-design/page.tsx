@@ -4,16 +4,16 @@ export default function Page() {
   return (
     <main>
 
-      <h1>Modular Design</h1>
+        <h1>Modular Design</h1>
       
-      <section>
-        <h1>Initial Thoughts</h1>
-        <p>So far, I've found that the primary design goal of
-          a good modular component is that it can used quickly
-          and easily when constructing a web page. It is important
-          to have a clear purpose in mind and put thought into the
-          user's (the software developer's) experience.</p>
-      </section>
+        <section>
+          <h1>Initial Thoughts</h1>
+          <p>So far, I've found that the primary design goal of
+            a good modular component is that it can used quickly
+            and easily when constructing a web page. It is important
+            to have a clear purpose in mind and put thought into the
+            user's (the software developer's) experience.</p>
+        </section>
 
       <section>
         <h1>Global Styling</h1>
