@@ -24,15 +24,15 @@ export default function Page() {
           Here's what the code for this paragraph looks like.
         </p>
         <Snippet>{`
-          <section>
-            <h1>Global Styling</h1>
-            <p>Usually, you think React components when you think "modular",
-              but styling basic HTML tags with ease of use in mind can save
-              a lot of time. I'm avoiding the use of class names as much as
-              possible so that I can focus on constructing the webpage content.
-              Here's what the code for this paragraph looks like.
-            </p>
-          </section>
+<section>
+  <h1>Global Styling</h1>
+  <p>Usually, you think React components when you think "modular",
+    but styling basic HTML tags with ease of use in mind can save
+    a lot of time. I'm avoiding the use of class names as much as
+    possible so that I can focus on constructing the webpage content.
+    Here's what the code for this paragraph looks like.
+  </p>
+</section>
         `}</Snippet>
         <p>Mua, nice and simple!</p>
       </section>
@@ -46,26 +46,26 @@ export default function Page() {
           new routes.
         </p>
         <Snippet>{`
-            <div
-                className={styles.menuButton}>
-            </div>
-            <div className={styles.navContainer}>
-                <Link
-                    className={styles.link}
-                    href={'/'}>
-                    Home
-                </Link>
-                <Link
-                    className={styles.link}
-                    href={'/responsive-design'}>
-                    Responsive Design
-                </Link>
-                <Link
-                    className={styles.link}
-                    href={'/modular-design'}>
-                    Modular Design
-                </Link>
-            </div>
+<div
+    className={styles.menuButton}>
+</div>
+<div className={styles.navContainer}>
+    <Link
+        className={styles.link}
+        href={'/'}>
+        Home
+    </Link>
+    <Link
+        className={styles.link}
+        href={'/responsive-design'}>
+        Responsive Design
+    </Link>
+    <Link
+        className={styles.link}
+        href={'/modular-design'}>
+        Modular Design
+    </Link>
+</div>
         `}</Snippet>
       </section>
 
@@ -78,15 +78,15 @@ export default function Page() {
           is used on a page.
         </p>
       <Snippet>{`
-        <Snippet code={"
+<Snippet code={"
 
-          if(simple) {
-            easyProject = true
-          } else {
-            project.panic() 
-          }
-        
-        "}/>
+  if(simple) {
+    easyProject = true
+  } else {
+    project.panic() 
+  }
+
+"}/>
       `}</Snippet>
       </section>
       
