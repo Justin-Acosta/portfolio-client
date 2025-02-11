@@ -1,5 +1,5 @@
 /* html {
-  color-scheme: dark;
+  color-scheme:light dark;
 } */
 
 html, body {
@@ -44,6 +44,5 @@ p {
 }
 
 pre {
-  margin: 0;
-  margin-right: 3rem;
+  margin: 0 2rem;
 }
