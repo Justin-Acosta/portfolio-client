@@ -1,21 +1,30 @@
 import styles from './background.module.css'
 
 interface BackgroundProps {
-    children: string;
-    backgroundColor: string;
-    backgroundImage: string;
+    children: any;
+    color?: string;
+    imageURL?: string;
+    gradient?: string;
 }
 
 export default function Background({
-    children, 
-    backgroundColor,
-    backgroundImage
-    }: BackgroundProps) {
+    children,
+    color,
+    imageURL,
+    gradient
+}: BackgroundProps) {
+
+
 
     return (
-        <div className={`${styles.backgroundContainer}
-        ${backgroundColor ? "": ""}`}>
-                    {children}
+        <div
+            className={styles.backgroundContainer}
+            style={
+                {backgroundColor: color || undefined,
+                backgroundImage: `url(${imageURL})` || undefined,
+                background: `linear-gradient(${gradient})`}
+            }>
+            {children}
         </div>
     )
 }
