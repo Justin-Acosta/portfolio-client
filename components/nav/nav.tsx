@@ -18,7 +18,7 @@ export default function Nav() {
                 onClick={toggleIsExpanded}
                 className={styles.menuButton}>
             </div>
-            <div 
+            <nav 
                 className={`${styles.navContainer} ${isExpanded ? styles.expanded : ''}`}>
                 <Link
                     onClick={toggleIsExpanded}
@@ -38,7 +38,7 @@ export default function Nav() {
                     href={'/responsive-design'}>
                     Responsive Design
                 </Link>
-            </div>
+            </nav>
         </>
     )
 }
