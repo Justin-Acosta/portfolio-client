@@ -3,7 +3,7 @@ import Nav from "@/components/nav/nav";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Expanded Portfolio",
+  title: "Wikifolio",
   description: "Portfolio website for Justin Acosta",
 };
 

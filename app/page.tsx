@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
 
-      <Background imageURL='https://t4.ftcdn.net/jpg/04/95/28/65/360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg'>
+      <Background imageURL=''>
         <h1>About This Project</h1>
         <section>
           <h1>Introduction</h1>

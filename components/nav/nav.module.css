@@ -45,11 +45,11 @@
 
 @media (max-aspect-ratio: 4/4) {
     .menuButton {
-        background-image: url('../../app/images/white_menu.svg');
+        background-image: url('../../images/white_menu.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
-        opacity: 30%;
+        opacity: 25%;
         position:fixed;
         right: 0;
         border: solid .2rem var(--offWhite);
