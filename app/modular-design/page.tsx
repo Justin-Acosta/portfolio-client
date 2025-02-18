@@ -21,7 +21,7 @@ export default function Page() {
 
         <section>
           <h1>Global Styling</h1>
-          <p>Usually, you think React components when you think "modular",
+          <p>Usually,when you think React components when you think "modular",
             but styling basic HTML tags with ease of use in mind can save
             a lot of time. I'm avoiding the use of class names as much as
             possible so that I can focus on constructing the webpage content.
@@ -30,7 +30,7 @@ export default function Page() {
           <Snippet>{`
 <section>
   <h1>Global Styling</h1>
-  <p>Usually, you think React components when you think "modular",
+  <p>Usually,when you think React components when you think "modular",
     but styling basic HTML tags with ease of use in mind can save
     a lot of time. I'm avoiding the use of class names as much as
     possible so that I can focus on constructing the webpage content.
@@ -82,7 +82,7 @@ export default function Page() {
           is used on a page.
         </p>
         <Snippet>{`
-<Snippet code={"
+<Snippet> {"
 
   if(simple) {
     easyProject = true
@@ -90,7 +90,7 @@ export default function Page() {
     project.panic() 
   }
 
-"}/>
+"}</Snippet>
       `}</Snippet>
       </section>
 

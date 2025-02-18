@@ -2,7 +2,7 @@
 import styles from './nav.module.css'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import {pallet} from '../../app/utilities'
+import { pallet } from '../../app/utilities'
 
 export default function Nav() {
 
@@ -18,7 +18,7 @@ export default function Nav() {
                 onClick={toggleIsExpanded}
                 className={styles.menuButton}>
             </div>
-            <nav 
+            <nav
                 className={`${styles.navContainer} ${isExpanded ? styles.expanded : ''}`}>
                 <Link
                     onClick={toggleIsExpanded}

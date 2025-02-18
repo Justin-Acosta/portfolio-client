@@ -9,10 +9,11 @@ export default function Home() {
         <h1>About This Project</h1>
         <section>
           <h1>Introduction</h1>
-          <p>This website is my personal portfolio, but not only that,
-            this is a place where I can record my thoughts and satisfy
-            my curiosity. Here, you'll find my organized thoughts About
-            software development concepts and practices.</p>
+          <p>This website is a personal database for my learning endeavors.
+             The idea is to take notes, but also integrate my learnings
+             into the very structure of the website for future reference.
+             I intend to create a searchable, feature rich platform that
+             enables rapid development. </p>
           <p>Technologies: JavaScript, React, Next.js, Python, Django</p>
         </section>
       </Background>

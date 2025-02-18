@@ -50,7 +50,10 @@ section {
 }
 
 section > h1 {
-  margin-bottom: 0;
+  width: 90%;
+  text-align: left;
+  border-bottom: solid .1rem var(--offWhite);
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -58,8 +61,10 @@ h1 {
 }
 
 p {
-
-  width: 90%
+  width: 90%;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
 }
 
 pre {
