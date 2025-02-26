@@ -1,15 +1,27 @@
 .link {
-    display: flex;
-    justify-content: center;
-    color:var(--offWhite);
-    width: 100%;
-    text-decoration: none;
-    white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  color:var(--offWhite);
+  width: 100%;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
 }
 
+
 @media (min-aspect-ratio: 4/4) {
-    .link {
+  .link {
       max-width: 50%;
       text-wrap: wrap;
-    }
   }
+
+  .link > article:hover {
+      background-color:var(--primaryLight2);
+  }
+}
+
+@media (max-aspect-ratio: 4.4) {
+  .link > article:active {
+      background-color:var(--primaryLight2);
+  }
+}
