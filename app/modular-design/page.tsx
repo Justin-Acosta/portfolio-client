@@ -17,15 +17,15 @@ export default function Page() {
           user's (the software developer's) experience.</p>
       </section>
 
-        <section>
-          <h1>Global Styling</h1>
-          <p>Usually,when you think React components when you think "modular",
-            but styling basic HTML tags with ease of use in mind can save
-            a lot of time. I'm avoiding the use of class names as much as
-            possible so that I can focus on constructing the webpage content.
-            Here's what the code for this paragraph looks like.
-          </p>
-          <Snippet>{`
+      <section>
+        <h1>Global Styling</h1>
+        <p>Usually,when you think React components when you think "modular",
+          but styling basic HTML tags with ease of use in mind can save
+          a lot of time. I'm avoiding the use of class names as much as
+          possible so that I can focus on constructing the webpage content.
+          Here's what the code for this paragraph looks like.
+        </p>
+        <Snippet>{`
 <section>
   <h1>Global Styling</h1>
   <p>Usually,when you think React components when you think "modular",
@@ -35,9 +35,9 @@ export default function Page() {
   Here's what the code for this paragraph looks like.
   </p>
 </section>
-  `}</Snippet>
-          <p>Mua, nice and simple!</p>
-        </section>
+          `}</Snippet>
+        <p>Mua, nice and simple!</p>
+      </section>
 
       <section>
         <h1>Nav Bar</h1>
