@@ -1,6 +1,6 @@
 import Background from "@/components/background/background";
 import Snippet from "@/components/snippet/snippet";
-import { pallet } from "../utilities"
+import { pallet } from "../../utilities"
 
 
 export default function Page() {
@@ -8,16 +8,16 @@ export default function Page() {
     <main>
       <h1>Modular Design</h1>
 
-      <section>
+      <article>
         <h1>Initial Thoughts</h1>
         <p>So far, I've found that the primary design goal of
           a good modular component is that it can used quickly
           and easily when constructing a web page. It is important
           to have a clear purpose in mind and put thought into the
           user's (the software developer's) experience.</p>
-      </section>
+      </article>
 
-      <section>
+      <article>
         <h1>Global Styling</h1>
         <p>Usually,when you think React components when you think "modular",
           but styling basic HTML tags with ease of use in mind can save
@@ -26,7 +26,7 @@ export default function Page() {
           Here's what the code for this paragraph looks like.
         </p>
         <Snippet>{`
-<section>
+<article>
   <h1>Global Styling</h1>
   <p>Usually,when you think React components when you think "modular",
   but styling basic HTML tags with ease of use in mind can save
@@ -34,12 +34,12 @@ export default function Page() {
   possible so that I can focus on constructing the webpage content.
   Here's what the code for this paragraph looks like.
   </p>
-</section>
+</article>
           `}</Snippet>
         <p>Mua, nice and simple!</p>
-      </section>
+      </article>
 
-      <section>
+      <article>
         <h1>Nav Bar</h1>
         <p>Ahh, the NavBar. A staple of any functioning website. Ideally,
           this component never gets reused, but stays mounted during the
@@ -69,9 +69,9 @@ export default function Page() {
     </Link>
 </div>
         `}</Snippet>
-      </section>
+      </article>
 
-      <section>
+      <article>
         <h1>Code Snippets</h1>
         <p>This is a perfect case for a modular component. Afterall, this
           website is all about explaining and using code, so I created a
@@ -90,7 +90,7 @@ export default function Page() {
 
 "}</Snippet>
       `}</Snippet>
-      </section>
+      </article>
 
     </main>
   );

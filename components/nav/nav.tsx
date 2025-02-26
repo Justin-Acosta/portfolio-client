@@ -29,14 +29,14 @@ export default function Nav() {
                 <Link
                     onClick={toggleIsExpanded}
                     className={styles.link}
-                    href={'/modular-design'}>
-                    Modular Design
+                    href={'/case-studies'}>
+                    Case Studies
                 </Link>
                 <Link
                     onClick={toggleIsExpanded}
                     className={styles.link}
-                    href={'/responsive-design'}>
-                    Responsive Design
+                    href={'/caspio'}>
+                    Caspio
                 </Link>
             </nav>
         </>

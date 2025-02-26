@@ -5,7 +5,7 @@ export default function Page() {
 
         <h1>Responsive Design</h1>
 
-        <section>
+        <article>
           <h1>Mobile First</h1>
           <p>I'm designing this website to be viewed on a mobile device,
             but as a self proclaimed desktop power user, I need to show
@@ -13,16 +13,16 @@ export default function Page() {
             based on aspect ratio, using 4/4 as my threshold because few
             displays are ever a perfect square.
           </p>
-        </section>
+        </article>
 
-        <section>
+        <article>
           <h1>Nav Bar</h1>
           <p>I've used Tailwind and Bootstrap to make responsive nav bars,
             before but I've always wanted to create one on my own. Change
             the screen to a mobile format, and you'll see the fruits of
             my self imposed challenge yourself.
           </p>
-        </section>
+        </article>
 
       </main>
     );
