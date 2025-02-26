@@ -11,6 +11,7 @@
     padding: 1rem;
     text-decoration: none;
     white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @media (min-aspect-ratio:4/4) {
