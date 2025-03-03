@@ -1,19 +1,22 @@
+'use client'
 import Link from 'next/link'
 import styles from './caspio.module.css'
+import CaspioImbed from '@/components/caspio-imbed/caspio-imbed';
+import Snippet from '@/components/snippet/snippet';
 
 export default function Page() {
+
     return (
         <main>
 
             <h1>Caspio</h1>
-
-            {/* <Link
+            <Link
                 className={styles.link}
-                href={'case-studies/modular-design'}>
+                href={'caspio/form'}>
                 <article>
-                    <h1>Modular Design</h1>
+                    <h1>Form</h1>
                 </article>
-            </Link> */}
+            </Link>
 
         </main>
     );
