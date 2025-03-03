@@ -15,11 +15,7 @@ export default function Page() {
 
             <article>
                 <h1>Component Code</h1>
-                <Snippet>{`'use client'
-import styles from './caspio-imbed.module.css'
-import { useEffect } from 'react';
-import { useState } from 'react';
-
+                <Snippet>{`
 interface CaspioImbedProps {
     URL: string;
 }

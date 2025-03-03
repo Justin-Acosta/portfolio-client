@@ -1,7 +1,6 @@
 'use client'
 import styles from './caspio-imbed.module.css'
 import { useEffect } from 'react';
-import { useState } from 'react';
 
 interface CaspioImbedProps {
     URL: string;
