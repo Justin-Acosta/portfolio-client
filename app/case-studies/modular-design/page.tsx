@@ -1,6 +1,5 @@
-import Background from "@/components/background/background";
+import styles from './page.module.css'
 import Snippet from "@/components/snippet/snippet";
-import { pallet } from "../../utilities"
 
 
 export default function Page() {
