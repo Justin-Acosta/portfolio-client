@@ -16,8 +16,8 @@ export default function Page() {
 
       <article>
         <h1>What are the steps?</h1>
-        <p>First, lets begin with a high level overview. What steps occur when a client sends
-          a request ot an API?
+        <p>First, let's begin with a high level overview. What steps occur when a client sends
+          a request to an API?
           <ol>
             <li>The client sends a request.</li><br></br>
             <li>The API receives and parses request</li><br></br>
