@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import styles from './case-studies.module.css'
+import Link from 'next/link'
 
 export default function Page() {
     return (
@@ -24,6 +24,15 @@ export default function Page() {
                         <h1>Responsive Design</h1>
                         <p>Recording my thoughts about designing a 
                             mobile-first application.</p>
+                    </article>
+                </Link>
+                <Link
+                    className={styles.link}
+                    href={'case-studies/api-requests'}>
+                    <article>
+                        <h1>API Requests</h1>
+                        <p>Breaking down the stages of an API request
+                            starting and ending with the client.</p>
                     </article>
                 </Link>
             </section>
