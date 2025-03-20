@@ -1,11 +1,11 @@
 import { fetchWithResponse } from "./data-utilities"
 
 interface RetrieveWikiProps {
-    pk: string
+    wikiId: string
 }
 
-export const retrieveWiki = ({pk}: RetrieveWikiProps) => {
-    return fetchWithResponse({resource:`wikis/${pk}`,options:{}})
+export const retrieveWiki = ({wikiId}: RetrieveWikiProps) => {
+    return fetchWithResponse({resource:`wikis/${wikiId}/`,options:{}})
 }
 
 interface ListWikiProps {
